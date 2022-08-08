@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Your Typing Speed</title>
+</head>
+<body>
+    <div class="stat">
+        <p>Time:<span id="timer">0s</span></p>
+        <p>Mistakes:<span id="mistakes"></span></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1>Check Your Typing Speed</h1>
+            <h2 id="arraySentence" onmousedown="return false" onselectstart="return false"></h2>
+            <br>
+            <textarea name=""  cols="50" rows="5" id="userInput" placeholder="Start Typing Here !"></textarea>
+            <br>
+            <button id="startBtn">Start</button>
+          
+        </div>
+        
+    </div>
+    <div class="result">
+        <div class="wrapper">
+            <p>Accuracy :<span id="accuracy"></span></p>
+            <p>Speed :<span id="speed"></span></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
